@@ -11,7 +11,6 @@ export default function About({ video }) {
     setKey(video[video.length -1].key)
   }, [])
   
-
   return (
     <Layout>
         <div className="container pt-4 pb-5">
